@@ -1,0 +1,38 @@
+/* Your CSS goes here! */
+h2 {
+  color: blue;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+strong {
+    color: blueviolet;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+ul {
+    color: brown;
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+h1 {
+    color: darkblue;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+

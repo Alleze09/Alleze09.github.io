@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet"/>
+        <title>My Work</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a class="m-2" href="index.html">About Me</a>
+                <a class="m-2" href="my-work.html">My Work</a>
+            </nav>
+        </header>
+        
+        <main class="m-3">
+            
+            <h1 class="display-1">My Work</h1>
+                <p>The two following papers are my previous science projects!</p>
+                <h2 class="display-2"><em>Predicting the interactions of Weibo</em></h2>
+                <img
+                    src="weibo.png"
+                    class = "img-fluid"
+                    alt="Weibo"
+                    style="width: 700px; height: 400px;"
+                />
+                <p><strong>Abstracts:</strong> 
+                    <br/>
+                    The research introduces several novel methodologies, particularly in user behavior analysis, where we developed a Zombie user
+                    identification system and comprehensive user profiling metrics.
+                    Our analysis demonstrates that user behavioral patterns are the
+                    most significant predictors of engagement success, followed by
+                    temporal and content features. The study evaluated multiple
+                    machine learning approaches, including Random Forest, XGBoost, Neural Networks with Random Forest emerging as the
+                    most effective model with a system named FRESH (Feature
+                    Random Forest Explained by SHAP Hyperboost) we create
+                    for choosing the best features, achieving a 31.51% accuracy
+                    rate on our weighted evaluation metric the same implication in
+                    Tianchi platform, ranking seventh among all participants in the engagement prediction challenge.
+                    The paper can be downloaded via the link: 
+                    <a href="https://github.com/Alleze09/Weibo_new/raw/main/Predicting_the_interactions_of_Weibo.pdf"
+                    target="_blank">Predicting the interactions of Weibo</a>
+                </p>
+                <br/>
+                <table>
+                    <h3> Experiment Results</h3>
+                    <tr>
+                        <th>Model</th>
+                        <th>Accuracy</th>
+                        <th>Key advantage</th>
+                    </tr>
+                    <tr>
+                        <td>Random Forest</td>
+                        <td>31.49%</td>
+                        <td>Higher accuracy</td>
+                    </tr>
+                    <tr>
+                        <td>XGBoost</td>
+                        <td>30.47%</td>
+                        <td>Faster training</td>
+                    </tr>
+                </table>
+                <br/>
+                <h2 class = "display-3"><em>Tuning LLMs with Explicit Knowledge</em></h2>
+                <img
+                    src="lbq.png"
+                    class = "img-fluid"
+                    alt="Tuning LLMs"
+                    style="width: 600px; height: 400px;"
+                />
+                <p><strong>Abstracts:</strong> 
+                    <br/>
+                    Explicit knowledge is essential for reasoning and understanding, offering interpretability and ease of transfer and editing.
+                    In contrast, traditional parameter fine-tuning in neural networks lacks transparency and flexibility.
+                    In this paper, we propose a novel framework for fine-tuning
+                    language models using explicit knowledge. Unlike traditional fine-tuning that directly modifies model parameters,
+                    our framework enhances the model's capabilities by externalizing its implicit knowledge, allowing for corrections and
+                    adjustments on an explicit knowledge base. This knowledge
+                    base can be independently validated, modified, and easily
+                    transferred.</p>
+                <ul>
+                    <h3>Methods</h3>
+                    <li>Forward Propagation</li>
+                    <li>Backward Propagation</li>
+                </ul>
+            
+            </main>
+    </body>
+</html>
